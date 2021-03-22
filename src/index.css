@@ -57,7 +57,7 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: rgb(103, 245, 193);
+  background: rgb(186, 250, 226);
 
 }
 
@@ -79,6 +79,7 @@
  font-size: 22px;
  color: #000;
  font-weight: 900;
+ margin-left: 50px;
  user-select: none; 
 }
 
@@ -103,4 +104,53 @@
       opacity: 0;
     }
   }
+}
+
+.search-form {
+  height: 40px;
+  min-height: 40px;
+  @media(max-width: 860px) {
+    input {
+      width: 220px;
+    }
+  }
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(62, 98, 84);
+    background: transparent;
+    margin-right: 50px;
+    padding: 10px 16px;
+    width: 260px;
+    color: #000;
+}
+
+.nav-page {
+  width: 100%;
+  min-height: 80px;
+  padding: 20px 0;
+  background: rgba (186, 250, 226);
+}
+  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}  
+.wrapper {
+  display: flex;
+  align-items: center;
+  }  
+
+#burger-menu {
+  color:rgb(243, 147, 110);
+  cursor: pointer;
+  display: none;
+}
+
+a:active {
+  color:rgb(103, 245, 193);
 }

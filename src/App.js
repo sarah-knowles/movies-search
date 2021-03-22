@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
 import Hero from './Components/Hero/Hero';
-
+import {MovieState} from './Context/MovieContext';
 
 const App = () => {
   return (
-    <div className="App">
+    <MovieState>
      <Hero />
-    </div>
+    </MovieState>
   );
 }
 
