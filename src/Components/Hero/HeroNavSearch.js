@@ -2,9 +2,9 @@ import React from 'react';
 
 const HeroNavSearch = () => {
   return (
-    <div>
-      
-    </div>
+    <form className='search-form'>
+      <input type='text' placeholder='search for movies' />
+    </form>
   );
 };
 
